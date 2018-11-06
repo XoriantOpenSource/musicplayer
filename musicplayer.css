@@ -1,0 +1,23 @@
+.player {
+	background: #F1F3F4 ;
+	border: solid 1px white;
+	border-radius: 10px; 
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.slider {
+	 -webkit-appearance: none; 
+	 background: #a0a0a0 ;
+	 height: 4px;
+	 margin-top: 8px; 
+	 width: 70%;
+}
+ .slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+    border: none;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: gray;
+ }

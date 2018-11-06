@@ -1,0 +1,22 @@
+<html>
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <script crossorigin src='https://unpkg.com/react@16.7.0-alpha.0/umd/react.development.js'></script>
+        <script crossorigin src='https://unpkg.com/react-dom@16.7.0-alpha.0/umd/react-dom.development.js'></script>
+        <script crossorigin src='https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js' charset='utf-8'></script>
+        <script type='text/babel' src='musicplayer.js'></script>
+        <link rel='stylesheet' href='musicplayer.css'></script>
+		<style>
+		* { font-family: Calibri, sans-serif }
+		</style>
+    </head>
+    <body>
+		<div style='width:40%'>
+			a2002011001-e02 <div id='song1'></div>
+		</div>
+        <script type='text/babel'>
+				var player1 = <MusicPlayer src='a2002011001-e02.wav' /> ;
+				ReactDOM.render( player1 , song1 ) ;
+        </script>
+    </body>
+</html>
